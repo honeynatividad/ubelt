@@ -59,7 +59,6 @@
                 'Staff' => 'Staff',
                 'Other' => 'Other'
             ];
-            //test
             echo $this->Form->input('year_level', ['type' => 'select', 'options' => $options,  'label' => __('Year Level')]);
             //echo $this->Form->select('year_level', $options, ['label' => __('Year Level'),'empty' => true]);
             $graduating = [
